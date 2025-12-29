@@ -1,0 +1,96 @@
+{
+  "name": "demo-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "jest",
+    "test:all": "jest",
+    "test:unit": "jest",
+    "test:watch": "jest --watch",
+    "test:list-article": "jest src/tests/unit/ArticleList.spec.js",
+    "test:newly-article": "jest src/tests/unit/NewlyArticle.spec.js",
+    "test:home": "jest src/tests/unit/Home.spec.js",
+    "test:banner": "jest src/tests/unit/Banner.spec.js",
+    "test:hotcategory": "jest src/tests/unit/HotCategory.spec.js",
+    "test:pagination": "jest src/tests/unit/Pagination.spec.js",
+    "test:auth": "jest src/tests/unit/auth.spec.js",
+    "test:api": "jest src/tests/unit/api.spec.js",
+    "test:login": "jest src/tests/unit/Login.spec.js",
+    "test:comment": "jest src/tests/unit/Comment.spec.js",
+    "test:search": "jest src/tests/unit/Search.spec.js",
+    "test:searchindex": "jest src/tests/unit/SearchIndex.spec.js",
+    "test:coverage": "jest --coverage",
+    "test:coverage:all": "jest --coverage",
+    "test:coverage:newly-article": "jest src/tests/unit/NewlyArticle.spec.js --coverage",
+    "test:coverage:list-article": "jest src/tests/unit/ArticleList.spec.js --coverage",
+    "test:coverage:banner": "jest src/tests/unit/Banner.spec.js --coverage",
+    "test:coverage:hotcategory": "jest src/tests/unit/HotCategory.spec.js --coverage",
+    "test:coverage:pagination": "jest src/tests/unit/Pagination.spec.js --coverage",
+    "test:coverage:auth": "jest src/tests/unit/auth.spec.js --coverage",
+    "test:coverage:api": "jest src/tests/unit/api.spec.js --coverage",
+    "test:coverage:login": "jest src/tests/unit/Login.spec.js --coverage",
+    "test:coverage:comment": "jest src/tests/unit/Comment.spec.js --coverage",
+    "test:coverage:search": "jest src/tests/unit/Search.spec.js --coverage",
+    "test:coverage:searchindex": "jest src/tests/unit/SearchIndex.spec.js --coverage"
+  },
+  "dependencies": {
+    "@kangc/v-md-editor": "^1.7.12",
+    "animate.css": "^3.7.2",
+    "axios": "^1.3.6",
+    "core-js": "^3.8.3",
+    "js-cookie": "^3.0.5",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "path": "^0.12.7",
+    "svg-sprite-loader": "^6.0.11",
+    "vue": "^2.6.14",
+    "vue-baberrage": "^3.2.4",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-router": "^3.6.5",
+    "vuetify": "^2.6.15",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.1.0",
+    "wowjs": "^1.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/eslint-parser": "^7.12.16",
+    "@babel/preset-env": "^7.28.5",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/test-utils": "^1.3.0",
+    "babel-jest": "^26.6.3",
+    "bootstrap": "^3.3.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "jest": "^26.6.3",
+    "jsdom": "^16.7.0",
+    "node-sass": "^8.0.0",
+    "nyc": "^17.1.0",
+    "sass-loader": "^13.2.2",
+    "vue-jest": "^4.0.1",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
